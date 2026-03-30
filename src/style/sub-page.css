@@ -1,0 +1,48 @@
+body {
+  padding: 200px 0;
+  font-family: "Helvetica Neue", sans-serif;
+}
+
+.container {
+  display: flex;
+}
+
+.section {
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.name {
+  margin-top: 24px;
+  font-size: 24px;
+}
+img {
+  width: 300px;
+  height: 300px;
+  border-radius: 20px;
+}
+
+.section {
+  margin-left: 24px;
+}
+
+.title {
+  margin-bottom: 24px;
+  font-size: 24px;
+}
+
+.info {
+  display: flex;
+  margin-bottom: 12px;
+}
+
+.info-label {
+  font-size: 24px;
+}
+.info-value {
+  margin-left: 24px;
+  font-size: 18px;
+}
